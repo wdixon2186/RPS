@@ -42,4 +42,7 @@ let allChoice = playersChoice.toLowerCase();
     else if(computerChoice === "scissors" && allChoice === "paper"){
         alert("Computer threw scissors. You win.")
     }
+    else{
+        alert("That's not an option. Please try again.")
+    }
 }
